@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.0" width="360.000000pt" height="360.000000pt" viewBox="0 0 360.000000 360.000000" preserveAspectRatio="xMidYMid meet" id="svg20" sodipodi:docname="day-night.svg" inkscape:version="1.2.2 (b0a8486, 2022-12-01)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><script xmlns=""/>
+  <defs id="defs24"/>
+  <sodipodi:namedview id="namedview22" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="pt" showgrid="false" inkscape:zoom="1.6846261" inkscape:cx="277.50965" inkscape:cy="253.76551" inkscape:window-width="1680" inkscape:window-height="997" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="g18"/>
+  <metadata id="metadata2">
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+</metadata>
+  <g transform="translate(0.000000,360.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none" id="g18">
+    <path d="M1562 2668 c-19 -19 -16 -202 4 -219 11 -9 20 -10 32 -2 14 8 17 28 17 119 0 102 -1 109 -20 112 -11 1 -26 -3 -33 -10z" id="path4"/>
+    <path d="M1077 2473 c-19 -18 0 -51 63 -114 39 -38 76 -69 83 -69 15 0 37 20 37 33 0 5 -32 42 -72 83 -66 68 -94 85 -111 67z" id="path6"/>
+    <path d="m 862.96564,1991.0633 c -0.70712,-26.1628 36.06243,-36.0623 125.1579,-36.0624 54.44726,0.707 102.53036,4.9497 107.48016,9.8994 10.6067,10.6067 12.0209,40.3052 2.8283,49.4976 -3.5353,3.5354 -52.3257,7.071 -109.60137,7.7782 -94.75232,1.4143 -126.57212,-6.3639 -125.86499,-31.1128 z" id="path6-7"/>
+    <path d="M1990 2410 c-51 -52 -70 -78 -68 -94 6 -43 40 -29 118 49 63 63 73 78 64 93 -21 33 -43 24 -114 -48z" id="path8"/>
+    <path d="M 1822,1717 C 1059,954 1028,920 1089,920 c 9,0 360,344 780,764 759,759 761.8442,781.6443 742.803,792.7396 C 2591.1209,2488.7912 2262,2157 1822,1717 Z" id="path10" sodipodi:nodetypes="sssss"/>
+    <path d="m 1469,2332 c -106,-35 -194,-115 -241,-218 -29.4315,-65.2653 -32.8895,-123.9325 -30.8354,-181.424 C 1199.1486,1877.0482 1208,1849 1232,1800 c 35,-71 78,-122 135,-161 l 45,-32 263,263 263,263 -20,32 c -30,51 -113,124 -174,152 -76,34 -196,41 -275,15 z" id="path12" sodipodi:nodetypes="ccscccccccc"/>
+    <path d="m 2170,1675 c -48,-31 -105,-95 -134,-152 -99,-196 -17,-432 184,-527 59,-28 73.0664,-40.33581 164.0664,-40.33581 87,0 107.9336,12.33581 155.9336,35.33581 64,30 121,77 162,133 36,50 35,58 -4,41 -115,-47 -270,-20 -381,67 -112,89 -166,269 -122,413 8,27 13,50 12,51 -1,1 -18,-8 -37,-21 z" id="path14" sodipodi:nodetypes="cccscccccsc"/>
+    <path d="M1140 1561 c-56 -53 -71 -74 -68 -92 6 -44 37 -35 105 33 77 76 89 94 72 114 -20 24 -35 16 -109 -55z" id="path16"/>
+  </g>
+</svg>
