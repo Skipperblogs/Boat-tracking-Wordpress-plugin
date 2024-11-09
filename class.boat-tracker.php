@@ -46,9 +46,9 @@ class Boat_Tracking
 
         function mapShortCode($atts){
 
-            wp_enqueue_script('boat_tracking_scripts',plugins_url('assets/mapshare-scripts.min.js',BOAT_TRACKING__PLUGIN_FILE), ['jquery'], BOAT_TRACKING__PLUGIN_VERSION, true);
-            wp_enqueue_script('boat_tracking_map_init',plugins_url('assets/map-init.js',BOAT_TRACKING__PLUGIN_FILE),['boat_tracking_scripts'], BOAT_TRACKING__PLUGIN_VERSION,true);
-            wp_enqueue_style('boat_tracking_map_styles',plugins_url('assets/mapshare-styles.min.css',BOAT_TRACKING__PLUGIN_FILE),[], BOAT_TRACKING__PLUGIN_VERSION);
+            wp_enqueue_script('boat_tracking_scripts',plugins_url('assets/mapshare-scripts.min.js',BTTRK_PLUGIN_FILE), ['jquery'], BTTRK_PLUGIN_VERSION, true);
+            wp_enqueue_script('boat_tracking_map_init',plugins_url('assets/map-init.js',BTTRK_PLUGIN_FILE),['boat_tracking_scripts'], BTTRK_PLUGIN_VERSION,true);
+            wp_enqueue_style('boat_tracking_map_styles',plugins_url('assets/mapshare-styles.min.css',BTTRK_PLUGIN_FILE),[], BTTRK_PLUGIN_VERSION);
             wp_add_inline_script('boat_tracking_scripts','var map_override=true;var assets_url="'.plugin_dir_url( __FILE__ ).'/assets/";','before');
 
 
@@ -78,10 +78,10 @@ class Boat_Tracking
     {
 
         // BOAT_TRACKING_Plugin_Settings
-        include_once BOAT_TRACKING__PLUGIN_DIR . 'class.plugin-settings.php';
+        include_once BTTRK_PLUGIN_DIR . 'class.plugin-settings.php';
 
         // BOAT_TRACKING_Admin
-        include_once BOAT_TRACKING__PLUGIN_DIR . 'class.admin.php';
+        include_once BTTRK_PLUGIN_DIR . 'class.admin.php';
         
         // init admin
         BOAT_TRACKING_Admin::init();
@@ -108,7 +108,7 @@ class Boat_Tracking
         $settings->reset();
 
         // remove geocoder locations in db
-        include_once BOAT_TRACKING__PLUGIN_DIR . 'class.geocoder.php';
+        include_once BTTRK_PLUGIN_DIR . 'class.geocoder.php';
         Leaflet_Geocoder::remove_caches();
     }
 
@@ -117,7 +117,7 @@ class Boat_Tracking
      */
     public static function load_text_domain()
     {
-        load_plugin_textdomain( 'boat-tracker', false, dirname( plugin_basename( BOAT_TRACKING__PLUGIN_FILE ) ) . '/languages/' );
+        load_plugin_textdomain( 'boat-tracker', false, dirname( plugin_basename( BTTRK_PLUGIN_FILE ) ) . '/languages/' );
     }
 
 
@@ -126,7 +126,7 @@ class Boat_Tracking
      * @return BOAT_TRACKING_Plugin_Settings
      */
     public static function settings () {
-        include_once BOAT_TRACKING__PLUGIN_DIR . 'class.plugin-settings.php';
+        include_once BTTRK_PLUGIN_DIR . 'class.plugin-settings.php';
         return BOAT_TRACKING_Plugin_Settings::init();
     }
 

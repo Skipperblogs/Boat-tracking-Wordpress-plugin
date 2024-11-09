@@ -51,7 +51,7 @@ class BOAT_TRACKING_Admin
        // add_action('admin_enqueue_scripts', array('Boat_Tracking', 'enqueue_and_register'));
 
         /* add settings to plugin page */
-        add_filter('plugin_action_links_' . plugin_basename(BOAT_TRACKING__PLUGIN_FILE), array($this, 'plugin_action_links'));
+        add_filter('plugin_action_links_' . plugin_basename(BTTRK_PLUGIN_FILE), array($this, 'plugin_action_links'));
     }
 
     /**
@@ -59,7 +59,7 @@ class BOAT_TRACKING_Admin
      */
     public function admin_init() 
     {
-        wp_register_style('boat_tracking_admin_stylesheet', plugins_url('style.css', BOAT_TRACKING__PLUGIN_FILE),[],BOAT_TRACKING__PLUGIN_VERSION);
+        wp_register_style('boat_tracking_admin_stylesheet', plugins_url('style.css', BTTRK_PLUGIN_FILE),[],BTTRK_PLUGIN_VERSION);
     }
 
     /**
@@ -92,7 +92,7 @@ class BOAT_TRACKING_Admin
         wp_enqueue_style('boat_tracking_admin_stylesheet');
 
         $settings = BOAT_TRACKING_Plugin_Settings::init();
-        $plugin_data = get_plugin_data(BOAT_TRACKING__PLUGIN_FILE);
+        $plugin_data = get_plugin_data(BTTRK_PLUGIN_FILE);
         include 'templates/settings.php';
     }
 

@@ -37,7 +37,7 @@ BTTRK_waitForJquery(async function () {
             map_element.attr(key,data.map_attr[key]);
         });
         if(data.is_windy && data.map_attr['data-key'] === undefined){
-            mapAlert('No Windy API key present. To display Windy weather map, you must create a Windy Api key on https://api.windy.com and paste your key in skipperblogs\' map configuration.');
+            BTTRK_mapAlert('No Windy API key present. To display Windy weather map, you must create a Windy Api key on https://api.windy.com and paste your key in skipperblogs\' map configuration.');
             return;
         }
 
@@ -70,7 +70,7 @@ BTTRK_waitForJquery(async function () {
         }
     }catch (e) {
 
-        mapAlert('Could not fetch map live data. Please check your MAP ID in the plugin settings.');
+        BTTRK_mapAlert('Could not fetch map live data. Please check your MAP ID in the plugin settings.');
         return;
     }
 

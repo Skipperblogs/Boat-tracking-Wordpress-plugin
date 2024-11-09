@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-require_once BOAT_TRACKING__PLUGIN_DIR . 'class.plugin-option.php';
+require_once BTTRK_PLUGIN_DIR . 'class.plugin-option.php';
 
 // TODO: add option to reset just a single field
 

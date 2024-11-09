@@ -4,7 +4,7 @@ Author URI: https://www.skipperblogs.com
 Contributors: skipperblgs
 Tags: map, tracking, boat, vessel, embed
 Requires at least: 4.6
-Tested up to: 6.5.2
+Tested up to: 6.6.2
 Version: 1.0.0
 Stable tag: 1.0.0
 Requires PHP: 5.4
@@ -21,7 +21,8 @@ Perfect for a travel website to highlight your sailing achievements.
 
 While the free version of Skipperblogs allows you to create a map, import GPX files, and edit your track with a powerful editor, the Premium version allow you to automatically update your position through marine trackers like AIS, Iridium etc.
 
-In order to display the map your must create a free account on [Skipperblogs](https://www.skipperblogs.com/register?source=wp). This plugin will fetch your navigation data from Skipperblogs and display it on your Wordpress site.
+In order to display the map your must create a free account on [Skipperblogs](https://www.skipperblogs.com/register?source=wp). This plugin will send your MapId to fetch your navigation data from Skipperblogs and display it on your Wordpress site.
+It uses Leaflet.js to display the navigation data on OpenStreetMap tiles layer.
 
 == Adding the map ==
 
@@ -110,6 +111,11 @@ For faster answer to your questions, visit our [support portal](https://www.skip
 
 For more FAQs, please visit our [support portal here](https://www.skipperblogs.com/support?source=wp).
 
+== Terms of use ==
+
+While this plugin is distributed under GNU-GPLv2 licence, the use of skipperblogs.com services remains under the acceptance of terms of use and privacy policies:
+[https://www.skipperblogs.com/terms](https://www.skipperblogs.com/terms)
+[https://www.skipperblogs.com/terms/privacy](https://www.skipperblogs.com/terms/privacy)
 
 == Screenshots ==
 

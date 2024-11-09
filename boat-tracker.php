@@ -16,12 +16,12 @@ if (!defined('ABSPATH')) {
   exit();
 }
 
-define('BOAT_TRACKING__PLUGIN_VERSION', '3.4.1');
-define('BOAT_TRACKING__PLUGIN_FILE', __FILE__);
-define('BOAT_TRACKING__PLUGIN_DIR', plugin_dir_path(__FILE__));
+define('BTTRK_PLUGIN_VERSION', '3.4.1');
+define('BTTRK_PLUGIN_FILE', __FILE__);
+define('BTTRK_PLUGIN_DIR', plugin_dir_path(__FILE__));
 
 // import main class
-require_once BOAT_TRACKING__PLUGIN_DIR . 'class.boat-tracker.php';
+require_once BTTRK_PLUGIN_DIR . 'class.boat-tracker.php';
 
 // uninstall hook
 register_uninstall_hook(__FILE__, ['Boat_Tracking', 'uninstall']);
